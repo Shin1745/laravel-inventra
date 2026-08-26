@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 15mm 15mm; }
+        body { font-family: Arial, sans-serif; color: #333; line-height: 1.5; }
+        h1 { color: #1a365d; font-size: 18pt; border-bottom: 2px solid #3182ce; padding-bottom: 6px; margin-top: 0; }
+        h2 { color: #2b6cb0; font-size: 13pt; margin-top: 15px; border-left: 4px solid #3182ce; padding-left: 8px; }
+        p, li { font-size: 10pt; }
+        .meta-box { background: #edf2f7; border-left: 4px solid #4a5568; padding: 10px; margin: 10px 0; font-size: 9.5pt; }
+        .img-container { text-align: center; margin-top: 10px; }
+        .img-container img { width: 100%; max-width: 580px; border: 1px solid #cbd5e0; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <h1>Laporan Project Laravel Terbaik: Inventra</h1>
+    <p>Dokumen portofolio pengembangan web full-stack menggunakan Laravel 12 dengan arsitektur bersih.</p>
+    <div class="meta-box">
+        <strong>Informasi Proyek:</strong><br>
+        • <strong>Nama Aplikasi:</strong> Inventra (Smart Inventory & Asset Management)<br>
+        • <strong>GitHub Repository:</strong> https://github.com/shin1745/laravel-inventra<br>
+        • <strong>Tech Stack:</strong> Laravel 12, PHP 8.2, SQLite, Bootstrap 5
+    </div>
+    <h2>1. Arsitektur & Desain Sistem</h2>
+    <ul>
+        <li><strong>Form Request Validation:</strong> Memisahkan logika validasi input dari controller.</li>
+        <li><strong>Service Layer:</strong> Mengisolasi logika transaksi bisnis dalam kelas layanan khusus.</li>
+        <li><strong>Eager Loading:</strong> Mengatasi N+1 Query Problem via Eloquent <code>with('category')</code>.</li>
+    </ul>
+    <h2>2. Fitur Utama</h2>
+    <ul>
+        <li>Manajemen pencatatan data barang secara real-time.</li>
+        <li>Dasbor interaktif berbasis Bootstrap 5.</li>
+        <li>Endpoint RESTful API yang aman dan konsisten.</li>
+    </ul>
+    <h2>3. Bukti Implementasi & Tampilan UI</h2>
+    <p>Berikut adalah tampilan antarmuka dasbor interaktif aplikasi Inventra:</p>
+    <div class="img-container">
+        <img src="file:///C:/Users/jjbb3/Downloads/Project/Inventra/screenshot.png" alt="Inventra Dashboard Screenshot">
+    </div>
+</body>
+</html>

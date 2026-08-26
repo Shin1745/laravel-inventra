@@ -1,4 +1,6 @@
 # Inventra - Inventory Management System
+## 📸 Dashboard Preview
+![Inventra Dashboard](screenshots/dashboard.png)
 
 A web-based full-stack inventory management system built with Laravel, featuring a clean software architecture (Separation of Concerns), transaction-safe database mutations, and Eloquent eager loading to prevent performance bottlenecks.
 
